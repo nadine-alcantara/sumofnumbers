@@ -11,9 +11,10 @@ console.log(sumFor(testNums));
 
 function sumWhile(nums) {
   let total = 0;
-  const i = 0;
+  let i = 0;
   while (i < nums.length) {
     total += nums[i];
+    i++;
   }
   return total;
 }
